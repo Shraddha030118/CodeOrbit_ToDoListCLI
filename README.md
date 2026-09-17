@@ -1,33 +1,71 @@
+# To-Do List CLI
 
-# Lakshya Sethu
-
-An AI-based college guidance platform that helps PU students choose suitable colleges and courses based on their interests, entrance exam rank, budget, and location.
+A simple command-line To-Do List application built with Python. It allows users to add, view, complete, and delete tasks directly from the terminal.
 
 ## Features
 
-- Student interest-based guidance
-- CET/JEE/NEET rank-based recommendations
-- College and course information
-- Fee and cutoff details
-- Hostel information
-- Placement information
-- Location-based college suggestions
+* Add new tasks
+* View all tasks
+* Mark tasks as completed
+* Delete tasks
+* Simple command-line interface
 
 ## Technologies Used
 
-- React.js
-- Node.js
-- Express.js
-- MySQL
-- HTML
-- CSS
-- JavaScript
+* Python
+* Command Line Interface (CLI)
 
 ## How to Run
 
-### Frontend
+1. Clone the repository:
 
 ```bash
-cd frontend
-npm install
-npm run dev
+git clone YOUR_REPOSITORY_URL
+```
+
+2. Open the project folder:
+
+```bash
+cd todo-list-cli
+```
+
+3. Run the program:
+
+```bash
+python todo.py
+```
+
+## Example
+
+```text
+===== TO-DO LIST =====
+
+1. Add Task
+2. View Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+
+Enter your choice:
+```
+
+## Project Structure
+
+```text
+todo-list-cli/
+│
+├── todo.py
+├── README.md
+└── .gitignore
+```
+
+## Future Improvements
+
+* Save tasks permanently using a file or database
+* Add task priorities
+* Add due dates
+* Add task search and filtering
+
+## Author
+
+Shraddha Nayak
